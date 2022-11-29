@@ -38,7 +38,7 @@ router.get('/:id', async (req, res) => {
     }
     res.status(200).json(categoryId);
   } catch (err) {
-    restart.status(500).json(err);
+    res.status(500).json(err);
   }
 });
 
