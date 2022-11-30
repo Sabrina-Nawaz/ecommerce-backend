@@ -94,9 +94,12 @@ router.put('/:id', (req, res) => {
     where: {
       id: req.params.id,
     },
+    plain:true,
+    returning:true
   })
     .then((product) => {
       // find all associated tags from ProductTag
+      console.log(product,'is this updating?')
       return ProductTag.findAll({ where: { product_id: req.params.id } });
     })
     .then((productTags) => {
