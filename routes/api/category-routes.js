@@ -12,7 +12,8 @@ router.get('/', async (req, res) => {
       // be sure to include its associated Products
       include: [
         {
-          model: Product, attributes: ["id", "product_name", "price", "stock", "category_id"],
+          model: Product, 
+          attributes: ["id", "product_name", "price", "stock", "category_id"],
         },
       ]
     });
@@ -29,7 +30,8 @@ router.get('/:id', async (req, res) => {
       // be sure to include its associated Products
       where: { id: req.params.id },
       include: [{
-        model: Product, attributes: ["id", "product_name", "price", "stock", "category_id"],
+        model: Product, 
+        attributes: ["id", "product_name", "price", "stock", "category_id"],
       }]
     });
     if (!categoryId) {
