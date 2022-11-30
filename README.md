@@ -8,7 +8,7 @@
 
 ## Description
 
-  This application's back end was created using an Express.js API and reworked to be used with MySQL and Sequelize. 
+  This application's back end for an e-commerce site was created using an Express.js API and reworked to be used with MySQL and Sequelize in order to obtain information on products, categories and tags of various items the store holds.  
 
 ## Table of Contents
 
