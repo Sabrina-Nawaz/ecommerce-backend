@@ -22,6 +22,14 @@
 ## Usage & Installation
 
   To use the program, the repository needs to be cloned and forked to your local machine. From the root directory of the application, open the terminal and run the `npm i` or `npm install` command in to download all dependencies. Next, the database needs to be initiated with `mysql -u root -p`. Once initiated, the tables need to be created by entering the command `source db/schema.sql`. Exit the sql terminal and then run the command `npm run seed` to feed the seed data into the tables. Lastly, enter the command `npm start` or `npm run watch` (if using nodemon) to initiate the server. 
+  
+  [GET Requests.webm](https://user-images.githubusercontent.com/61954667/204928319-650341e8-8965-4dc4-9450-d9b6dc8c8dca.webm)
+  
+  [CREATE PUT POST DELETE Categories.webm](https://user-images.githubusercontent.com/61954667/204928354-cd73f6dd-8f17-439c-b102-6ddae5656740.webm)
+  
+  [CREATE PUT POST DELETE Products.webm](https://user-images.githubusercontent.com/61954667/204928375-0bb6a4a4-79d6-42a8-80be-2cb0a023dafc.webm)
+  
+  [CREATE PUT POST DELETE tags.webm](https://user-images.githubusercontent.com/61954667/204928409-4108b1fd-34ea-42a0-a9a5-e44962f482c5.webm)
 
 ## License
 Copyright <2022 Sabrina Nawaz> <COPYRIGHT>
